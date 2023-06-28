@@ -1,0 +1,154 @@
+bres_industry,iaot_industry_code,desc
+01,A01,"Crop And Animal Production, Hunting And Related Service Activities  "
+02,A02,Forestry And Logging  
+03,A03,Fishing And Aquaculture  
+05,B05,Mining Of Coal And Lignite  
+06,B06 & B07,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores
+07,B06 & B07,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores
+08,B08,Other Mining And Quarrying  
+09,B09,Mining Support Service Activities  
+12,C1101T1106 & C12,Manufacture of alcoholic beverages  & Tobacco Products
+13,C13,Manufacture Of Textiles  
+14,C14,Manufacture Of Wearing Apparel  
+15,C15,Manufacture Of Leather And Related Products  
+16,C16,"Manufacture Of Wood & Products Of Wood & Cork, Except Furniture; Manuf. Of Articles Of Straw"
+17,C17,Manufacture Of Paper And Paper Products  
+18,C18,Printing And Reproduction Of Recorded Media  
+19,C19,Manufacture Of Coke And Refined Petroleum Products  
+21,C21,Manufacture Of Basic Pharmaceutical Products And Pharmaceutical Preparations
+22,C22,Manufacture Of Rubber And Plastic Products  
+26,C26,"Manufacture Of Computer, Electronic And Optical Products  "
+27,C27,Manufacture Of Electrical Equipment  
+28,C28,Manufacture Of Machinery And Equipment N.E.C.  
+29,C29,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers  "
+31,C31,Manufacture Of Furniture  
+32,C32,Other Manufacturing  
+36,E36,"Water Collection, Treatment And Supply  "
+37,E37,Sewerage  
+38,E38,"Waste Collection, Treatment And Disposal Activities; Materials Recovery  "
+39,E39,Remediation Activities And Other Waste Management Services  
+41,"F41, F42  & F43",Construction
+42,"F41, F42  & F43",Construction
+43,"F41, F42  & F43",Construction
+45,G45,Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles  
+46,G46,"Wholesale Trade, Except Of Motor Vehicles And Motorcycles  "
+47,G47,"Retail Trade, Except Of Motor Vehicles And Motorcycles  "
+50,H50,Water Transport  
+51,H51,Air Transport  
+52,H52,Warehousing And Support Activities For Transportation  
+53,H53,Postal And Courier Activities  
+55,I55,Accommodation  
+56,I56,Food And Beverage Service Activities  
+58,J58,Publishing Activities  
+59,J59 & J60,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities"
+60,J59 & J60,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities"
+61,J61,Telecommunications  
+62,J62,"Computer Programming, Consultancy And Related Activities  "
+63,J63,Information Service Activities  
+64,K64,"Financial Service Activities, Except Insurance And Pension Funding  "
+66,K66,Activities Auxiliary To Financial Services And Insurance Activities  
+70,M70,Activities Of Head Offices; Management Consultancy Activities  
+71,M71,Architectural And Engineering Activities; Technical Testing And Analysis  
+72,M72,Scientific Research And Development  
+73,M73,Advertising And Market Research  
+74,M74,"Other Professional, Scientific And Technical Activities  "
+75,M75,Veterinary Activities  
+77,N77,Rental And Leasing Activities  
+78,N78,Employment Activities  
+79,N79,"Travel Agency, Tour Operator And Other Reservation Service And Related Activities  "
+80,N80,Security And Investigation Activities  
+81,N81,Services To Buildings And Landscape Activities  
+82,N82,"Office Administrative, Office Support And Other Business Support Activities  "
+84,O84,Public Administration And Defence; Compulsory Social Security  
+85,P85,Education  
+86,Q86,Human Health Activities
+87,Q87 & Q88,Residential Care  & Social Work Activities
+88,Q87 & Q88,Residential Care  & Social Work Activities
+90,R90,"Creative, Arts And Entertainment Activities  "
+91,R91,"Libraries, Archives, Museums And Other Cultural Activities  "
+92,R92,Gambling And Betting Activities  
+93,R93,Sports Activities And Amusement And Recreation Activities  
+94,S94,Activities Of Membership Organisations  
+95,S95,Repair Of Computers And Personal And Household Goods  
+96,S96,Other Personal Service Activities  
+97,T97,Activities Of Households As Employers Of Domestic Personnel  
+101,C101,Processing and preserving of meat and production of meat products
+102,C102_3,"Processing and preserving of fish, crustaceans, molluscs, fruit and vegetables"
+103,C102_3,"Processing and preserving of fish, crustaceans, molluscs, fruit and vegetables"
+104,C104,Manufacture of vegetable and animal oils and fats
+105,C105,Manufacture of dairy products
+106,C106,"Manufacture of grain mill products, starches and starch products"
+107,C107,Manufacture of bakery and farinaceous products
+108,C108,Manufacture of other food products
+109,C109,Manufacture of prepared animal feeds
+203,C203,"Manufacture of paints, varnishes and similar coatings, printing ink and mastics"
+204,C204,"Manufacture of soap & detergents, cleaning & polishing, perfumes & toilet preparations"
+205,C205,Manufacture of other chemical products
+231,C23OTHER,"Manufacture of glass, refractory, clay, porcelain, ceramic, stone products - 23.1-4/7-9"
+232,C23OTHER,"Manufacture of glass, refractory, clay, porcelain, ceramic, stone products - 23.1-4/7-9"
+233,C23OTHER,"Manufacture of glass, refractory, clay, porcelain, ceramic, stone products - 23.1-4/7-9"
+234,C23OTHER,"Manufacture of glass, refractory, clay, porcelain, ceramic, stone products - 23.1-4/7-9"
+235,C235_6,"Manufacture of cement, lime, plaster and articles of concrete, cement and plaster"
+236,C235_6,"Manufacture of cement, lime, plaster and articles of concrete, cement and plaster"
+237,C23OTHER,"Manufacture of glass, refractory, clay, porcelain, ceramic, stone products - 23.1-4/7-9"
+239,C23OTHER,"Manufacture of glass, refractory, clay, porcelain, ceramic, stone products - 23.1-4/7-9"
+241,C241T243,Manufacture of basic iron and steel
+242,C241T243,Manufacture of basic iron and steel
+243,C241T243,Manufacture of basic iron and steel
+244,C244_5,Manufacture of other basic metals and casting
+245,C244_5,Manufacture of other basic metals and casting
+251,C25OTHER,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9"
+252,C25OTHER,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9"
+253,C25OTHER,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9"
+254,C254,Manufacture of weapons and ammunition
+255,C25OTHER,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9"
+256,C25OTHER,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9"
+257,C25OTHER,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9"
+259,C25OTHER,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9"
+301,C301,Building of ships and boats
+302,C30OTHER,Manufacture of other transport equipment - 30.2/4/9
+303,C303,Manufacture of air and spacecraft and related machinery
+304,C30OTHER,Manufacture of other transport equipment - 30.2/4/9
+309,C30OTHER,Manufacture of other transport equipment - 30.2/4/9
+351,D351,"Electric power generation, transmission and distribution"
+352,D352_3,Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply
+353,D352_3,Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply
+491,H491_2,Rail transport
+492,H491_2,Rail transport
+493,H493T495,"Land transport services and transport services via pipelines, excluding rail transport"
+494,H493T495,"Land transport services and transport services via pipelines, excluding rail transport"
+495,H493T495,"Land transport services and transport services via pipelines, excluding rail transport"
+651,K65.1-2 & K65.3,"Insurance, reinsurance and pension funding services, except compulsory social security"
+652,K65.1-2 & K65.3,"Insurance, reinsurance and pension funding services, except compulsory social security"
+653,K65.1-2 & K65.3,"Insurance, reinsurance and pension funding services, except compulsory social security"
+681,L68BXL683,"Buying and selling, renting and operating of own or leased real estate, excluding imputed rent"
+682,L68BXL683,"Buying and selling, renting and operating of own or leased real estate, excluding imputed rent"
+683,L683,Real estate services on a fee or contract basis  
+691,M691,Legal activities  
+692,M692,"Accounting, bookkeeping and auditing activities; tax consultancy  "
+1101,C1101T1106 & C12,Manufacture of alcoholic beverages  & Tobacco Products
+1102,C1101T1106 & C12,Manufacture of alcoholic beverages  & Tobacco Products
+1103,C1101T1106 & C12,Manufacture of alcoholic beverages  & Tobacco Products
+1104,C1101T1106 & C12,Manufacture of alcoholic beverages  & Tobacco Products
+1105,C1101T1106 & C12,Manufacture of alcoholic beverages  & Tobacco Products
+1106,C1101T1106 & C12,Manufacture of alcoholic beverages  & Tobacco Products
+1107,C1107,Manufacture of soft drinks; production of mineral waters and other bottled waters
+2011,C20A,"Manufacture of industrial gases, inorganics and fertilisers (inorganic chemicals) - 20.11/13/15"
+2012,C20C,"Manufacture of dyestuffs, agro-chemicals - 20.12/20"
+2013,C20A,"Manufacture of industrial gases, inorganics and fertilisers (inorganic chemicals) - 20.11/13/15"
+2014,C20B,Manufacture of petrochemicals - 20.14/16/17/60
+2015,C20A,"Manufacture of industrial gases, inorganics and fertilisers (inorganic chemicals) - 20.11/13/15"
+2016,C20B,Manufacture of petrochemicals - 20.14/16/17/60
+2017,C20B,Manufacture of petrochemicals - 20.14/16/17/60
+2020,C20C,"Manufacture of dyestuffs, agro-chemicals - 20.12/20"
+2060,C20B,Manufacture of petrochemicals - 20.14/16/17/60
+3311,C33OTHER,Rest of repair; Installation - 33.11-14/17/19/20
+3312,C33OTHER,Rest of repair; Installation - 33.11-14/17/19/20
+3313,C33OTHER,Rest of repair; Installation - 33.11-14/17/19/20
+3314,C33OTHER,Rest of repair; Installation - 33.11-14/17/19/20
+3315,C3315,Repair and maintenance of ships and boats
+3316,C3316,Repair and maintenance of aircraft and spacecraft
+3317,C33OTHER,Rest of repair; Installation - 33.11-14/17/19/20
+3319,C33OTHER,Rest of repair; Installation - 33.11-14/17/19/20
+3320,C33OTHER,Rest of repair; Installation - 33.11-14/17/19/20
+L68A,L68A,Owner-Occupiers' Housing

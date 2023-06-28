@@ -1,0 +1,124 @@
+---
+title: "Input-Output Economic Impact Model"
+author: "Christian Spence"
+format: html
+editor: visual
+---
+
+## About an Input-Output Model
+
+Input-Output (I-O) models, derived from Supply and Use tables (SUTs), form the heart of economic impact analysis. They allow us to calculate a variety of economic impacts that occur throughout an economy due to the share, or change in share, of a particular industry on both its wider supply chain and any induced household spending effects.
+
+From these, we can determine a set of economic effects and multipliers that examine both the direct (the demand in the particular industry) and the indirect (consequential changes in the supply chain to that industry in other industries) changes, as well as the induced effects (the additional household income that is available for spending because of the employment changes required in the supply chain).
+
+The direct and indirect effects and multipliers, both part of final demand, are known as type 1. The induced effects and multipliers are known as type 2. Type 2 effects and multipliers always include the type 1 effects and multipliers, and are therefore always larger than the type 1 effect and multipliers.
+
+There are a variety of both type 1 and type 2 effects and multipliers. These are the output multiplier (note that there is no output effect), and the effects and multipliers for income, GVA, and employment. Each of these is described in more detail in the [effects and multipliers](#effects-and-multipliers) section.
+
+### Additional data requirements
+
+All of the type 1 and type 2 effects and multipliers can be calculated from the data provided within the core Input-Output Analytical Table apart from two additional parts of information that are required.
+
+The first is that we need to know the total amount of household income available for consumption. This can be obtained from the ONS's Regional Gross Disposable Household Income datasets, and is calculated as the sum of the primary resources total and secondary resources total, Blue Book 2021 consistent. (Table 6, Components of total GDHI at current basic prices).
+
+The second is that to calculate the employment effect and multiplier, we need to know the number of employees in each of the industries in the SUT and IOAT and, from that, calculate the number of FTE employees per unit of total output. This can be obtained from the ONS Business Register and Employment Survey (BRES), accessed through [NOMIS](https://www.nomisweb.co.uk) at a 4-digit SIC level to provide mapping to the ONS's 105 industry sectors in the SUTs.
+
+## Supply and Use Tables (SUTs)
+
+Supply and Use Tables (SUTs) ...
+
+## Input-Output Analytical Table (IOAT)
+
+The Input-Output Analytical Table (IOAT) is, in reality, three separate tables usually combined into a single table. It consists of three main parts: `B` (the main I-O table), `F` (final use, on the right-hand side of the `B` table), and `W` (below the `B` table).
+
+TODO: insert graphic here
+
+The `B` table shows the value of domestic use (column) by industry from the supply (row) industries.
+
+The `F` table shows final use ...
+
+The `W` table shows ...
+
+## The 'A' Matrix
+
+The `A` Matrix is calculated by dividing the values in each cell by the column sums of the matrix, i.e. total output, the last row in the main IOAT matrix. This `A` matrix is also known as the matrix of coefficients or the direct requirements matrix. It shows the relationship between supply (industries in the rows) and demand (industries in the columns) in various different industries.
+
+$$
+\boldsymbol{A} = \sum_{i} \boldsymbol{IOAT}
+$$
+
+## The Leontif Inverse Matrix
+
+The Leontif Inverse Matrix (`L`) is calculated by subtracting the `A` matrix of the previous step from an identity matrix (a matrix of the same dimensions as the A matrix which has 1s along the diagonal but 0s everywhere else) and then inverting the result.
+
+$$
+\boldsymbol{L} = (\boldsymbol{I} - \boldsymbol{A}) ^{-1}
+$$
+
+### Type 1 and Type 2 Leontif Inverse Matrices
+
+As discussed in the introduction, there are two types of Leontif Inverse Matrices, known as type 1 and type 2. The difference between the two is that type 1 calculates only direct and indirect impacts, whereas type 2 also calculates the induced impact, i.e. that which is caused by the change in household incomes because of employment changes caused by the direct (in the industry directly concerned) and the indirect (the wider supply chain that supports the industry) changes.
+
+We will refer to these two different matrices as `L1` and `L2`.
+
+## Effects and multipliers {#effects-and-multipliers}
+
+*Effects* measure the impact on the wider economy per unit of final use in one industry. Effects provide greater insight into economic transactions and total output changes. They only show total impacts, i.e. they do not show the breakdown of direct and indirect changes.
+
+*Multipliers* measure the ratio between direct and total impact.
+
+### Output multiplier
+
+The output multiplier is the total of all outputs from each industry required to produce a single additional unit of output. For type 1, this is the column sums of the Leontif type 1 matrix, `L1`. The type 2 output multiplier is equal to the column sums of the industry rows, i.e. excluding compensation of employees, the extra row we added to endogenise the household sector, of the Leontif type 2 matrix, `L2`.
+
+$$
+(O_{mult})_j = \sum_{i} \boldsymbol{L}_{ij}
+$$
+
+### Income multiplier
+
+The income multiplier shows the increase in income from employment throughout the economy that results from a unit change of income from employment in each industry. In the formula below, ***v*** is the ratio of income from employment to total output for each industry (column).
+
+$$
+(I_{mult})_j = \sum_{i}v_i \boldsymbol{L}_{ij}/v_j
+$$
+
+### Income effects
+
+Income effects show the impact on income from employment throughout the economy arising from a change in final use for industry ***j***'s output of £1.
+
+$$
+(I_{eff})_j = \sum_i v_i \boldsymbol{L}_{ij}
+$$
+
+### GVA multiplier
+
+GVA multipliers show the increase in GVA in the economy that results from a change of £1 of GVA in each industry. In the formula below, ***g*** is the ratio of GVA to total output for each industry (column) (this is taken directly from the `IOAT` table.
+
+$$
+(G_{mult})_j = \sum_i g_i\boldsymbol{L}_{ij}/g_j
+$$
+
+### GVA effects
+
+GVA effects show the increase in GVA throughout the economy arising from a change in final use for industry ***j***'s output of £1.
+
+$$
+(G_{eff})_j = \sum_ig_i\boldsymbol{L}_{ij}
+$$
+
+### Employment multiplier
+
+Employment multipliers show the total increases in employment throughout the economy that result from an increase in final use which is enough to create one additional FTE in that industry. In the formula below, ***w*** is the number of FTEs per £1 of total output for each industry.
+
+$$
+(E_{mult})_j = \sum_i w_i\boldsymbol{L}_{ij}/w_j
+$$
+
+### Employment effects
+
+Employment effects show the impact on employment throughout the economy arising from a change in final use for industry ***j***'s output of £1.
+
+$$
+(E_{eff})_j = \sum_i w_i\boldsymbol{L}_{ij}
+$$
